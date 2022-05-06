@@ -10,7 +10,7 @@
         <card-component :item="character" />
       </div>
     </div>
-    <footer-component :lng="characterList.length"/>
+    <footer-component :lng="characterList.length" v-if="!loading"/>
   </section>
 </template>
 

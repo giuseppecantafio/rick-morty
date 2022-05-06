@@ -6,21 +6,18 @@
     <main>
       <GridComponent />
     </main>
-    <LoaderComponent />
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
 import GridComponent from './components/GridComponent.vue';
-import LoaderComponent from './components/LoaderComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     GridComponent,
-    LoaderComponent,
   },
   data() {
     return {
