@@ -1,0 +1,31 @@
+/* Nodemodules */
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* Style, i font stanno in nodumodules. cercare nelle cartella relativa peso e stile e importarlo qui  */
+@import "~@fontsource/montserrat/index.css";
+@import "~@fontsource/montserrat/700.css";
+
+/* Vars, le importo qua così poi importo solo general. le importo per ultime perché usano i font */
+@import "./vars.scss";
+
+body {
+  font-family: $main-font;
+  color: $text-color;
+  background-image: 
+    linear-gradient(
+      to left,
+      transparent 0px,
+      transparent 20px,
+      rgba(#000, 0.02) 20px,
+      rgba(#000, 0.02) 40px
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 20px,
+      rgba(#000, 0.02) 20px,
+      rgba(#000, 0.02) 40px
+    );
+    background-size: 40px, 100% 40px;
+
+}
