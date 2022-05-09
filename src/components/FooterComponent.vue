@@ -1,7 +1,7 @@
 <template>
   <footer>
       <div class="text-center">
-          Found {{lng}} elements
+          Found {{lng}} elements 
       </div>
   </footer>
 </template>

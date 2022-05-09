@@ -5,7 +5,16 @@
 @import "~@fontsource/montserrat/index.css";
 @import "~@fontsource/montserrat/700.css";
 
+
+/* Devo mettere anche questo per sovrascrivere nel caso in cui lo trovasse, la cartella contenente i webfonts */
+$fa-font-path: "./webfonts";
+
+/*Importo font awesome prima da terminale: npm install --save @fortawesome/fontawesome-free poi lo vado a prendere in node_modules. SE HO IMPORTATO SOLO SOLID RICORDA DI IMPORTARE PURE LE ALTRE */
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
 /* Vars, le importo qua così poi importo solo general. le importo per ultime perché usano i font */
+
 @import "./vars.scss";
 
 body {

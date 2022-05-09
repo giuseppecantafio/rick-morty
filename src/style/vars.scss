@@ -4,3 +4,6 @@ $text-color: #333;
 
 // TYPOGRAPHY
 $main-font: 'Montserrat', sans-serif;
+
+//FONT copio la cartella webfonts da @fortawesome nel mio style. è come se gli dicessi se non la trovi, prendi questa. Devo mettere qualcosa anche in general. Questo perché i font hanno un asset statico (come le immagini)
+$fa-font-path: "./webfonts" !default;
